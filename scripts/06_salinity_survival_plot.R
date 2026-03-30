@@ -30,6 +30,12 @@ sum_plot <- sst_plot %>%
   )
 
 p_survival <- ggplot(sst_plot, aes(x = Treatment, y = pct_alive, color = Treatment)) +
+  geom_boxplot(
+    width = 0.5,
+    outlier.shape = NA,
+    linewidth = 0.8,
+    alpha = 0.18
+  ) +
   geom_jitter(width = 0.06, size = 2.8, alpha = 0.9) +
   geom_errorbar(
     data = sum_plot,
