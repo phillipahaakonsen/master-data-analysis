@@ -1,0 +1,12 @@
+Generated result files:
+d16_similarity_boxplot.png
+growth_emm_df.csv
+growth_rep_means.csv
+growth_trajectory_discrete.png
+growth_trajectory_numeric.png
+results_manifest.txt
+salinity_control_check.csv
+salinity_descriptive_summary.csv
+salinity_glm_odds_ratios.csv
+salinity_stats_report.txt
+salinity_survival_plot.png

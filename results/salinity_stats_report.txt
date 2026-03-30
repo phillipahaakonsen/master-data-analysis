@@ -1,0 +1,55 @@
+Salinity stress analysis report
+Source file: Salinity_stress_test.csv
+
+Descriptive summary:
+# A tibble: 2 × 4
+  Treatment n_cones mean_survival sd_survival
+  <chr>       <int>         <dbl>       <dbl>
+1 Control         4          45.8        8.43
+2 Probiotic       4          52.7       15.6 
+
+GLM summary:
+
+Call:
+glm(formula = cbind(FS, Dead) ~ Treatment, family = binomial(), 
+    data = sst_main)
+
+Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)  
+(Intercept)         -0.1856     0.1333  -1.392    0.164  
+TreatmentProbiotic   0.3096     0.1721   1.799    0.072 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 33.534  on 7  degrees of freedom
+Residual deviance: 30.287  on 6  degrees of freedom
+AIC: 71.377
+
+Number of Fisher Scoring iterations: 3
+
+
+Odds ratios (with 95% CI):
+                term odds_ratio  ci_lower ci_upper
+1        (Intercept)  0.8306452 0.6387267  1.07795
+2 TreatmentProbiotic  1.3628870 0.9732571  1.91164
+
+Welch t-test:
+
+	Welch Two Sample t-test
+
+data:  pct_alive by Treatment
+t = -0.77358, df = 4.6158, p-value = 0.4769
+alternative hypothesis: true difference in means between group Control and group Probiotic is not equal to 0
+95 percent confidence interval:
+ -30.21141  16.50359
+sample estimates:
+  mean in group Control mean in group Probiotic 
+               45.81208                52.66599 
+
+
+Control_check rows:
+  Cone FS Dead Total pct_alive
+1   KP 66    2    68  97.05882
+2   KC 47    2    49  95.91837
