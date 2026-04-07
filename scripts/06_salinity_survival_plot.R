@@ -11,13 +11,17 @@ if (!exists("sst_main")) {
 
 results_dir <- getOption("project_results_dir", file.path(getwd(), "results"))
 dir.create(results_dir, showWarnings = FALSE, recursive = TRUE)
+base_family <- "serif"
+base_size <- 18
+axis_title_size <- 22
+axis_text_size <- 18
 
 sst_plot <- sst_main %>%
   mutate(
     Treatment = factor(
       Treatment,
-      levels = c("Control", "Probiotic"),
-      labels = c("Control", "Probiotic-treated")
+      levels = c("Probiotic", "Control"),
+      labels = c("Probiotic-treated", "Control")
     )
   )
 
@@ -25,50 +29,61 @@ sum_plot <- sst_plot %>%
   group_by(Treatment) %>%
   summarise(
     mean_survival = mean(pct_alive, na.rm = TRUE),
-    sd_survival = sd(pct_alive, na.rm = TRUE),
+    se_survival = sd(pct_alive, na.rm = TRUE) / sqrt(sum(!is.na(pct_alive))),
     .groups = "drop"
   )
 
-p_survival <- ggplot(sst_plot, aes(x = Treatment, y = pct_alive, color = Treatment)) +
-  geom_boxplot(
-    width = 0.5,
-    outlier.shape = NA,
-    linewidth = 0.8,
-    alpha = 0.18
+p_survival <- ggplot(sst_plot, aes(x = Treatment, y = pct_alive)) +
+  geom_jitter(
+    aes(fill = Treatment),
+    width = 0.08,
+    size = 3.2,
+    shape = 21,
+    stroke = 0.5,
+    color = "grey25",
+    alpha = 0.95
   ) +
-  geom_jitter(width = 0.06, size = 2.8, alpha = 0.9) +
   geom_errorbar(
     data = sum_plot,
     aes(
       x = Treatment,
-      ymin = mean_survival - sd_survival,
-      ymax = mean_survival + sd_survival,
-      color = Treatment
+      ymin = mean_survival - se_survival,
+      ymax = mean_survival + se_survival
     ),
-    width = 0.08,
-    linewidth = 0.9,
+    width = 0.06,
+    linewidth = 0.6,
+    color = "grey30",
+    inherit.aes = FALSE
+  ) +
+  geom_point(
+    data = sum_plot,
+    aes(x = Treatment, y = mean_survival, fill = Treatment),
+    shape = 23,
+    size = 4.4,
+    stroke = 0.7,
+    color = "grey20",
     inherit.aes = FALSE
   ) +
   geom_point(
     data = sum_plot,
     aes(x = Treatment, y = mean_survival),
-    shape = 18,
-    size = 4,
-    color = "black",
+    shape = 4,
+    stroke = 0.8,
+    size = 3.4,
+    color = "grey30",
     inherit.aes = FALSE
   ) +
-  scale_color_manual(
-    values = c("Control" = "darkgreen", "Probiotic-treated" = "purple4")
+  scale_fill_manual(
+    values = c("Probiotic-treated" = "#4367E0", "Control" = "#F09A2E")
   ) +
   labs(
-    x = "Treatment group",
+    x = NULL,
     y = "Survival (%)"
   ) +
-  theme_classic(base_family = "serif") +
+  theme_classic(base_size = base_size, base_family = base_family) +
   theme(
-    text = element_text(size = 16),
-    axis.title = element_text(size = 18),
-    axis.text = element_text(size = 15, color = "black"),
+    axis.title = element_text(size = axis_title_size),
+    axis.text = element_text(size = axis_text_size, color = "black"),
     legend.position = "none"
   )
 

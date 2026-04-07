@@ -1,0 +1,397 @@
+treatment,treatment_label,comparison_id,comparison_label,sample_id,n_compared,mean_similarity
+Cop_pro,Probiotic-treated,within_d16,"Within nauplii
+(D16)",Cop_pro_D16_1_1,6,0.49883333333333335
+Cop_pro,Probiotic-treated,within_d16,"Within nauplii
+(D16)",Cop_pro_D16_2_3,6,0.660494445
+Cop_pro,Probiotic-treated,within_d16,"Within nauplii
+(D16)",Cop_pro_D16_3_2,6,0.6425111116666666
+Cop_pro,Probiotic-treated,within_d16,"Within nauplii
+(D16)",Cop_pro_D16_3_3,6,0.6495666666666666
+Cop_pro,Probiotic-treated,within_d16,"Within nauplii
+(D16)",Cop_pro_D16_4_1,6,0.6861777783333334
+Cop_pro,Probiotic-treated,within_d16,"Within nauplii
+(D16)",Cop_pro_D16_4_2,6,0.6795444433333333
+Cop_pro,Probiotic-treated,within_d16,"Within nauplii
+(D16)",Cop_pro_D16_4_3,6,0.6826388883333333
+Cop_ctr,Untreated control,within_d16,"Within nauplii
+(D16)",Cop_ctr_D16_1_1,10,0.64258
+Cop_ctr,Untreated control,within_d16,"Within nauplii
+(D16)",Cop_ctr_D16_1_2,10,0.556303334
+Cop_ctr,Untreated control,within_d16,"Within nauplii
+(D16)",Cop_ctr_D16_1_3,10,0.644853333
+Cop_ctr,Untreated control,within_d16,"Within nauplii
+(D16)",Cop_ctr_D16_2_1,10,0.664980001
+Cop_ctr,Untreated control,within_d16,"Within nauplii
+(D16)",Cop_ctr_D16_2_2,10,0.49351
+Cop_ctr,Untreated control,within_d16,"Within nauplii
+(D16)",Cop_ctr_D16_3_1,10,0.61842
+Cop_ctr,Untreated control,within_d16,"Within nauplii
+(D16)",Cop_ctr_D16_3_2,10,0.578306666
+Cop_ctr,Untreated control,within_d16,"Within nauplii
+(D16)",Cop_ctr_D16_3_3,10,0.622230001
+Cop_ctr,Untreated control,within_d16,"Within nauplii
+(D16)",Cop_ctr_D16_4_1,10,0.12153
+Cop_ctr,Untreated control,within_d16,"Within nauplii
+(D16)",Cop_ctr_D16_4_2,10,0.614576666
+Cop_ctr,Untreated control,within_d16,"Within nauplii
+(D16)",Cop_ctr_D16_4_3,10,0.617576667
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_1_1,11,0.7302939390909091
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_1_2,11,0.7043818181818182
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_1_3,11,0.7476060618181818
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_2_1,11,0.5854545454545454
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_2_2,11,0.6670606063636364
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_2_3,11,0.6902727281818182
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_3_1,11,0.7665121209090909
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_3_2,11,0.7191727281818182
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_3_3,11,0.7488
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_4_1,11,0.7457606063636364
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_4_2,11,0.7601969690909091
+Cop_pro,Probiotic-treated,within_d21,"Within copepodites
+(D21)",Cop_pro_D21_4_3,11,0.7170272727272727
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_1_1,11,0.6411848490909091
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_1_2,11,0.6736181827272727
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_1_3,11,0.6497999990909091
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_2_1,11,0.5800424236363636
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_2_2,11,0.6280909109090909
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_2_3,11,0.5551060609090909
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_3_1,11,0.6925
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_3_2,11,0.6705545463636363
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_3_3,11,0.638390910909091
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_4_1,11,0.6043878781818182
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_4_2,11,0.6715878790909091
+Cop_ctr,Untreated control,within_d21,"Within copepodites
+(D21)",Cop_ctr_D21_4_3,11,0.6227121209090909
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_1_1,11,0.5496909090909091
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_1_2,11,0.46230909
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_1_3,11,0.47970606
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_2_1,11,0.5788757572727273
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_2_2,11,0.5738060609090909
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_2_3,11,0.55960909
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_3_1,11,0.31123939363636366
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_3_2,11,0.6124030318181818
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_3_3,11,0.6280939409090909
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_4_1,11,0.6299
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_4_2,11,0.645003030909091
+Cop_pro,Probiotic-treated,within_d24,"Within adults
+(D24)",Cop_pro_D24_4_3,11,0.5744545445454545
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_1_1,11,0.5966575745454545
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_1_2,11,0.6086090909090909
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_1_3,11,0.5760666645454545
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_2_1,11,0.5880090909090909
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_2_2,11,0.4414030309090909
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_2_3,11,0.58569394
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_3_1,11,0.5820454563636364
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_3_2,11,0.624724240909091
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_3_3,11,0.5765030309090909
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_4_1,11,0.5806242409090909
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_4_2,11,0.4919818172727273
+Cop_ctr,Untreated control,within_d24,"Within adults
+(D24)",Cop_ctr_D24_4_3,11,0.5000454545454546
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D16_1_1,12,0.46391388833333336
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D16_2_3,12,0.428055555
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D16_3_2,12,0.4019777766666667
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D16_3_3,12,0.37970833416666666
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D16_4_1,12,0.3870472225
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D16_4_2,12,0.34874444416666667
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D16_4_3,12,0.36947777833333334
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_1_1,7,0.4581095242857143
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_1_2,7,0.43937142714285715
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_1_3,7,0.4249047614285714
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_2_1,7,0.28406666714285717
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_2_2,7,0.42140476285714284
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_2_3,7,0.37860476
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_3_1,7,0.3858190457142857
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_3_2,7,0.3936142871428571
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_3_3,7,0.42764285714285716
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_4_1,7,0.37496666714285715
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_4_2,7,0.39030476285714283
+Cop_pro,Probiotic-treated,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_pro_D21_4_3,7,0.3850619042857143
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D16_1_1,12,0.2929555558333333
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D16_1_2,12,0.25725
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D16_1_3,12,0.2653749991666667
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D16_2_1,12,0.2876722225
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D16_2_2,12,0.3690027775
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D16_3_1,12,0.1803583325
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D16_3_2,12,0.10870833275
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D16_3_3,12,0.12164444416666667
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D16_4_1,12,0.042325
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D16_4_2,12,0.14061111083333333
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D16_4_3,12,0.32454722166666666
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_1_1,11,0.20893636327272727
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_1_2,11,0.221675757
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_1_3,11,0.22486060727272728
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_2_1,11,0.1902636360909091
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_2_2,11,0.19726363427272728
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_2_3,11,0.18098787754545453
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_3_1,11,0.21515151609090907
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_3_2,11,0.2523727263636364
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_3_3,11,0.25285757481818183
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_4_1,11,0.20924545481818183
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_4_2,11,0.22889999972727273
+Cop_ctr,Untreated control,d16_vs_d21,"Nauplii vs. copepodites
+(D16 vs. D21)",Cop_ctr_D21_4_3,11,0.22524848572727274
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_1_1,12,0.445144445
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_1_2,12,0.34123889
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_1_3,12,0.3808333333333333
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_2_1,12,0.5588027775
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_2_2,12,0.41293333250000003
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_2_3,12,0.49849444416666666
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_3_1,12,0.39705277833333336
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_3_2,12,0.31311389
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_3_3,12,0.3895472233333333
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_4_1,12,0.4736055558333333
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_4_2,12,0.46109999916666666
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D21_4_3,12,0.362380555
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_1_1,12,0.4270277775
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_1_2,12,0.31538333333333335
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_1_3,12,0.3683972225
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_2_1,12,0.38836388916666664
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_2_2,12,0.37388889000000003
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_2_3,12,0.38519166666666665
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_3_1,12,0.5583833325
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_3_2,12,0.4642222225
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_3_3,12,0.46515
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_4_1,12,0.45752777833333336
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_4_2,12,0.44868055583333333
+Cop_pro,Probiotic-treated,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_pro_D24_4_3,12,0.38203055583333334
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_1_1,12,0.35935833166666664
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_1_2,12,0.46081388916666666
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_1_3,12,0.36320555583333336
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_2_1,12,0.5630138875
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_2_2,12,0.585
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_2_3,12,0.598955555
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_3_1,12,0.45668889
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_3_2,12,0.4838611116666667
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_3_3,12,0.45206388833333333
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_4_1,12,0.3491027775
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_4_2,12,0.42547777666666664
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D21_4_3,12,0.37978333333333336
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_1_1,12,0.457644445
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_1_2,12,0.46343888833333335
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_1_3,12,0.45206666666666667
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_2_1,12,0.445780555
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_2_2,12,0.35813611
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_2_3,12,0.44073889
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_3_1,12,0.5278749983333334
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_3_2,12,0.5801222216666667
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_3_3,12,0.5975722225
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_4_1,12,0.4265194433333333
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_4_2,12,0.357525
+Cop_ctr,Untreated control,d21_vs_d24,"Copepodites vs. adults
+(D21 vs. D24)",Cop_ctr_D24_4_3,12,0.36990555583333334
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D16_1_1,12,0.2367222225
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D16_2_3,12,0.23621111083333335
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D16_3_2,12,0.18486111166666666
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D16_3_3,12,0.21946944416666667
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D16_4_1,12,0.28063888833333334
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D16_4_2,12,0.23409999916666668
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D16_4_3,12,0.23000000166666668
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_1_1,7,0.2652904757142857
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_1_2,7,0.21122380857142858
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_1_3,7,0.24983809571428572
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_2_1,7,0.17421428714285714
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_2_2,7,0.1658999985714286
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_2_3,7,0.18532381142857143
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_3_1,7,0.3445285714285714
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_3_2,7,0.2685428542857143
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_3_3,7,0.2648523814285714
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_4_1,7,0.23739047714285716
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_4_2,7,0.24869047714285714
+Cop_pro,Probiotic-treated,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_pro_D24_4_3,7,0.16478095285714286
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D16_1_1,12,0.227025
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D16_1_2,12,0.23209722166666666
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D16_1_3,12,0.200144445
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D16_2_1,12,0.1899583325
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D16_2_2,12,0.1817722225
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D16_3_1,12,0.178080555
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D16_3_2,12,0.12148611083333333
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D16_3_3,12,0.13348611191666665
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D16_4_1,12,0.05677777741666667
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D16_4_2,12,0.14430277583333334
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D16_4_3,12,0.18968888916666668
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_1_1,11,0.13245151427272728
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_1_2,11,0.15463939299999999
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_1_3,11,0.17617878845454546
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_2_1,11,0.13412424154545455
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_2_2,11,0.17719697
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_2_3,11,0.1955090911818182
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_3_1,11,0.2135151509090909
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_3_2,11,0.20673636363636363
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_3_3,11,0.23790909027272727
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_4_1,11,0.14671212027272726
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_4_2,11,0.12454242390909091
+Cop_ctr,Untreated control,d16_vs_d24,"Nauplii vs. adults
+(D16 vs. D24)",Cop_ctr_D24_4_3,11,0.12392424363636363

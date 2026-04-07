@@ -2,6 +2,9 @@
 # Requires these data frames already in memory:
 # - rep_means: treatment, unit, day, mean_length
 # - emm_df: day, treatment, emmean, lower.CL, upper.CL
+# - growth_rate_by_unit: descriptive interval growth rates by replicate unit
+# - growth_rate_summary: descriptive interval growth-rate summary
+# - growth_rate_ttest_20_23: Welch t-test summary for Oct20-Oct23
 
 library(dplyr)
 
@@ -33,17 +36,13 @@ emm_df2 <- emm_df %>%
     x = day_to_x(as.character(day))
   )
 
-growth_20_23 <- rep_means2 %>%
-  filter(x %in% c(20, 23)) %>%
-  group_by(treatment, unit) %>%
-  summarise(
-    len_20 = mean(mean_length[x == 20], na.rm = TRUE),
-    len_23 = mean(mean_length[x == 23], na.rm = TRUE),
-    .groups = "drop"
-  ) %>%
-  mutate(rate_um_per_day = (len_23 - len_20) / 3) %>%
-  group_by(treatment) %>%
-  summarise(rate = mean(rate_um_per_day, na.rm = TRUE), .groups = "drop")
+growth_15_20 <- growth_rate_summary %>%
+  filter(interval_label == "Oct15_Oct20") %>%
+  transmute(treatment, rate = mean_rate)
+
+growth_20_23 <- growth_rate_summary %>%
+  filter(interval_label == "Oct20_Oct23") %>%
+  transmute(treatment, rate = mean_rate)
 
 rate_control <- growth_20_23$rate[growth_20_23$treatment == "control"]
 rate_probiotic <- growth_20_23$rate[growth_20_23$treatment == "probiotic"]

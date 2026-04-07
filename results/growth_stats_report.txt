@@ -1,0 +1,211 @@
+Growth analysis report
+Source file: /Users/phillipahaakonsen/Documents/NTNU/Masteroppgave/R/length_measurements.csv
+Primary model: lmer(length ~ treatment * day + (1 | unit/day), REML = TRUE)
+Singular fit: TRUE
+Design note: October 15 includes one replicate culture unit per treatment.
+Interpret treatment comparisons for that day cautiously.
+
+Sampling summary by treatment/day:
+# A tibble: 6 x 4
+  treatment day   n_units n_individuals
+  <fct>     <fct>   <int>         <int>
+1 control   Oct15       1            29
+2 control   Oct20       4           205
+3 control   Oct23       4           199
+4 probiotic Oct15       1            23
+5 probiotic Oct20       4           202
+6 probiotic Oct23       4           221
+
+Counts by treatment/day/unit:
+   treatment   day unit n_individuals
+1    control Oct15   C1            29
+2    control Oct20   C1            50
+3    control Oct20   C2            51
+4    control Oct20   C3            50
+5    control Oct20   C4            54
+6    control Oct23   C1            41
+7    control Oct23   C2            52
+8    control Oct23   C3            50
+9    control Oct23   C4            56
+10 probiotic Oct15   P1            23
+11 probiotic Oct20   P1            50
+12 probiotic Oct20   P2            52
+13 probiotic Oct20   P3            50
+14 probiotic Oct20   P4            50
+15 probiotic Oct23   P1            44
+16 probiotic Oct23   P2            60
+17 probiotic Oct23   P3            66
+18 probiotic Oct23   P4            51
+
+Replicate-level means used for trajectory plots:
+# A tibble: 18 x 4
+   treatment unit  day   mean_length
+   <fct>     <fct> <fct>       <dbl>
+ 1 control   C1    Oct15        135.
+ 2 control   C1    Oct20        479.
+ 3 control   C1    Oct23        803.
+ 4 control   C2    Oct20        484.
+ 5 control   C2    Oct23        773.
+ 6 control   C3    Oct20        498.
+ 7 control   C3    Oct23        765.
+ 8 control   C4    Oct20        476.
+ 9 control   C4    Oct23        795.
+10 probiotic P1    Oct15        122.
+11 probiotic P1    Oct20        470.
+12 probiotic P1    Oct23        769.
+13 probiotic P2    Oct20        451.
+14 probiotic P2    Oct23        826.
+15 probiotic P3    Oct20        465.
+16 probiotic P3    Oct23        805.
+17 probiotic P4    Oct20        468.
+18 probiotic P4    Oct23        821.
+
+Mixed-model summary:
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: length ~ treatment * day + (1 | unit/day)
+   Data: length_raw
+
+REML criterion at convergence: 10180.2
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-5.2628 -0.6062  0.1740  0.6402  2.6837 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ day:unit (Intercept)  148     12.16   
+ unit     (Intercept)    0      0.00   
+ Residual             6508     80.67   
+Number of obs: 879, groups:  day:unit, 18; unit, 8
+
+Fixed effects:
+                            Estimate Std. Error      df t value Pr(>|t|)    
+(Intercept)                  135.140     19.298  20.789   7.003 6.87e-07 ***
+treatmentprobiotic           -13.413     28.343  24.162  -0.473    0.640    
+dayOct20                     348.963     21.004  18.679  16.614 1.21e-12 ***
+dayOct23                     648.431     21.031  18.757  30.832  < 2e-16 ***
+treatmentprobiotic:dayOct20   -7.232     30.681  21.249  -0.236    0.816    
+treatmentprobiotic:dayOct23   35.763     30.661  21.162   1.166    0.256    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) trtmnt dyOc20 dyOc23 tr:O20
+trtmntprbtc -0.681                            
+dayOct20    -0.919  0.626                     
+dayOct23    -0.918  0.625  0.843              
+trtmntp:O20  0.629 -0.924 -0.685 -0.577       
+trtmntp:O23  0.629 -0.924 -0.578 -0.686  0.854
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+Type III ANOVA:
+                       term       sum_sq      mean_sq num_df   den_df
+treatment         treatment 8.275764e+02     827.5764      1 19.33920
+day                     day 1.742145e+07 8710723.9820      2 14.77719
+treatment:day treatment:day 4.533084e+04   22665.4178      2 14.77719
+                   f_value      p_value
+treatment        0.1271628 7.252533e-01
+day           1338.4621101 1.988649e-17
+treatment:day    3.4826959 5.764880e-02
+
+Fixed-effect estimates:
+                                                   term   estimate std_error
+(Intercept)                                 (Intercept) 135.139897  19.29754
+treatmentprobiotic                   treatmentprobiotic -13.413070  28.34313
+dayOct20                                       dayOct20 348.963033  21.00366
+dayOct23                                       dayOct23 648.430652  21.03130
+treatmentprobiotic:dayOct20 treatmentprobiotic:dayOct20  -7.232422  30.68077
+treatmentprobiotic:dayOct23 treatmentprobiotic:dayOct23  35.763121  30.66080
+                                  df  statistic      p_value
+(Intercept)                 20.78881  7.0029605 6.872258e-07
+treatmentprobiotic          24.16170 -0.4732389 6.402904e-01
+dayOct20                    18.67914 16.6143907 1.213392e-12
+dayOct23                    18.75678 30.8316988 1.567467e-17
+treatmentprobiotic:dayOct20 21.24865 -0.2357314 8.158983e-01
+treatmentprobiotic:dayOct23 21.16232  1.1664118 2.564250e-01
+
+Random-effect estimates:
+     group        term term2  variance  std_dev
+1 day:unit (Intercept)  <NA>  147.9809 12.16474
+2     unit (Intercept)  <NA>    0.0000  0.00000
+3 Residual        <NA>  <NA> 6508.0094 80.67223
+
+Estimated marginal means:
+  treatment   day   emmean        SE       df  lower.CL upper.CL
+1   control Oct15 135.1399 19.297538 20.78881  94.98363 175.2962
+2 probiotic Oct15 121.7268 20.759041 27.77610  79.18841 164.2652
+3   control Oct20 484.1029  8.292093 11.34745 465.92010 502.2858
+4 probiotic Oct20 463.4574  8.319741 11.50309 445.24305 481.6718
+5   control Oct23 783.5705  8.361850 11.67031 765.29440 801.8467
+6 probiotic Oct23 805.9206  8.175049 10.62242 787.84910 823.9921
+
+Pairwise treatment contrasts within day:
+day = Oct15:
+ contrast             estimate std_error    df  conf_low conf_high  statistic
+ control - probiotic  13.41307  28.34313 24.16 -45.06355  71.88970  0.4732389
+   p_value
+ 0.6402904
+
+day = Oct20:
+ contrast             estimate std_error    df  conf_low conf_high  statistic
+ control - probiotic  20.64549  11.74636 11.43  -5.09118  46.38216  1.7576081
+   p_value
+ 0.1055442
+
+day = Oct23:
+ contrast             estimate std_error    df  conf_low conf_high  statistic
+ control - probiotic -22.35005  11.69410 11.14 -48.04924   3.34913 -1.9112246
+   p_value
+ 0.0820354
+
+Degrees-of-freedom method: satterthwaite 
+Confidence level used: 0.95 
+
+Descriptive growth rate by unit:
+# A tibble: 10 x 9
+   treatment unit  day_start day_end interval_days interval_label len_start
+   <fct>     <fct> <chr>     <chr>           <dbl> <chr>              <dbl>
+ 1 control   C1    Oct15     Oct20               5 Oct15_Oct20         135.
+ 2 probiotic P1    Oct15     Oct20               5 Oct15_Oct20         122.
+ 3 control   C1    Oct20     Oct23               3 Oct20_Oct23         479.
+ 4 control   C2    Oct20     Oct23               3 Oct20_Oct23         484.
+ 5 control   C3    Oct20     Oct23               3 Oct20_Oct23         498.
+ 6 control   C4    Oct20     Oct23               3 Oct20_Oct23         476.
+ 7 probiotic P1    Oct20     Oct23               3 Oct20_Oct23         470.
+ 8 probiotic P2    Oct20     Oct23               3 Oct20_Oct23         451.
+ 9 probiotic P3    Oct20     Oct23               3 Oct20_Oct23         465.
+10 probiotic P4    Oct20     Oct23               3 Oct20_Oct23         468.
+# i 2 more variables: len_end <dbl>, rate_um_per_day <dbl>
+
+Descriptive growth rate summary:
+# A tibble: 4 x 8
+  interval_label day_start day_end interval_days treatment n_units mean_rate
+  <chr>          <chr>     <chr>           <dbl> <fct>       <int>     <dbl>
+1 Oct15_Oct20    Oct15     Oct20               5 control         1      68.7
+2 Oct15_Oct20    Oct15     Oct20               5 probiotic       1      69.6
+3 Oct20_Oct23    Oct20     Oct23               3 control         4      99.9
+4 Oct20_Oct23    Oct20     Oct23               3 probiotic       4     114. 
+# i 1 more variable: sd_rate <dbl>
+
+Welch t-test for Oct20-Oct23 growth rate:
+  interval_label                  method statistic parameter    p_value
+1    Oct20_Oct23 Welch Two Sample t-test -1.989427  5.833217 0.09515567
+   conf_low conf_high mean_control mean_probiotic
+1 -31.09939  3.313882     99.91882       113.8116
+
+Full Welch t-test output for Oct20-Oct23 growth rate:
+
+	Welch Two Sample t-test
+
+data:  rate_um_per_day by treatment
+t = -1.9894, df = 5.8332, p-value = 0.09516
+alternative hypothesis: true difference in means between group control and group probiotic is not equal to 0
+95 percent confidence interval:
+ -31.099386   3.313882
+sample estimates:
+  mean in group control mean in group probiotic 
+               99.91882               113.81157 
+
