@@ -1,5 +1,0 @@
-"interval_label","day_start","day_end","interval_days","treatment","n_units","mean_rate","sd_rate"
-"Oct15_Oct20","Oct15","Oct20",5,"control",1,68.6902446896552,NA
-"Oct15_Oct20","Oct15","Oct20",5,"probiotic",1,69.6493787826087,NA
-"Oct20_Oct23","Oct20","Oct23",3,"control",4,99.9188205211257,9.00226611847612
-"Oct20_Oct23","Oct20","Oct23",3,"probiotic",4,113.811572771265,10.6782368024662
