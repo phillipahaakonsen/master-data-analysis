@@ -1,6 +1,7 @@
 Generated result files:
 all_days_similarity_boxplot.png
 alpha_diversity_boxplots.png
+alpha_diversity_stage_boxplots.png
 alpha_diversity_welch_stats.csv
 asv_relative_abundance_scatterplots_cop_ctr_vs_cop_pro_D16.png
 asv_relative_abundance_scatterplots_cop_ctr_vs_cop_pro_D21.png
@@ -48,3 +49,4 @@ salinity_descriptive_summary.csv
 salinity_glm_odds_ratios.csv
 salinity_stats_report.txt
 salinity_survival_plot.png
+simper_stage_tables_ge3.tex

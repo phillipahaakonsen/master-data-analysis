@@ -7,6 +7,7 @@ library(ggplot2)
 library(patchwork)
 
 results_dir <- getOption("project_results_dir", file.path(getwd(), "results"))
+data_dir <- getOption("project_data_dir", getwd())
 dir.create(results_dir, showWarnings = FALSE, recursive = TRUE)
 
 base_family <- "serif"
@@ -18,7 +19,7 @@ axis_line_width <- 0.45
 axis_tick_width <- 0.45
 x_axis_text_size <- 20
 
-alpha_path <- "AlphaDiversityCopProVsCopCtr.csv"
+alpha_path <- file.path(data_dir, "AlphaDiversityCopProVsCopCtr.csv")
 
 alpha_raw <- read.delim(
   alpha_path,

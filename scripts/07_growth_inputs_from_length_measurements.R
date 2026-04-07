@@ -18,11 +18,12 @@ library(emmeans)
 library(lmerTest)
 
 results_dir <- getOption("project_results_dir", file.path(getwd(), "results"))
+data_dir <- getOption("project_data_dir", getwd())
 dir.create(results_dir, showWarnings = FALSE, recursive = TRUE)
 
-input_file <- "length_measurements.csv"
+input_file <- file.path(data_dir, "length_measurements.csv")
 if (!file.exists(input_file)) {
-  stop("Missing input file: length_measurements.csv in project root")
+  stop("Missing input file: ", input_file)
 }
 
 length_raw <- read.csv(input_file, sep = ";", stringsAsFactors = FALSE) %>%

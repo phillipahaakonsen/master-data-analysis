@@ -20,10 +20,11 @@ library(ggrepel)
 library(patchwork)
 
 results_dir <- getOption("project_results_dir", file.path(getwd(), "results"))
+data_dir <- getOption("project_data_dir", getwd())
 dir.create(results_dir, showWarnings = FALSE, recursive = TRUE)
 
-count_table_path <- "ASV_table.csv"
-taxonomy_table_path <- "ASVtable_0.8threshold.csv"
+count_table_path <- file.path(data_dir, "ASV_table.csv")
+taxonomy_table_path <- file.path(data_dir, "ASVtable_0.8threshold.csv")
 days_to_plot <- c("D16", "D21", "D24")
 base_family <- "Times New Roman"
 label_max_n <- 8

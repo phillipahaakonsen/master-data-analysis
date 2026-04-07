@@ -7,6 +7,7 @@ library(ggplot2)
 library(grid)
 
 results_dir <- getOption("project_results_dir", file.path(getwd(), "results"))
+data_dir <- getOption("project_data_dir", getwd())
 dir.create(results_dir, showWarnings = FALSE, recursive = TRUE)
 
 base_family <- "serif"
@@ -38,7 +39,7 @@ group_colors <- c(
 )
 
 pcoa_raw <- read.csv(
-  "PCoA_All_scores.csv",
+  file.path(data_dir, "PCoA_All_scores.csv"),
   sep = ";",
   check.names = FALSE,
   stringsAsFactors = FALSE
@@ -48,7 +49,7 @@ if (ncol(pcoa_raw) >= 1) {
 }
 
 pcoa_summary <- read.csv(
-  "PCoA_All_summary.csv",
+  file.path(data_dir, "PCoA_All_summary.csv"),
   sep = ";",
   check.names = FALSE,
   stringsAsFactors = FALSE

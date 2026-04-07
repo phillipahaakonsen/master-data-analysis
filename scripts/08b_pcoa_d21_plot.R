@@ -3,9 +3,10 @@
 # Output: pcoa_d21_plot.png in results directory
 
 source("scripts/08_pcoa_plot_helper.R", local = TRUE)
+data_dir <- getOption("project_data_dir", getwd())
 make_pcoa_plot(
-  "PCoA_D21_scores.csv",
-  "PCoA_D21_summary.csv",
+  file.path(data_dir, "PCoA_D21_scores.csv"),
+  file.path(data_dir, "PCoA_D21_summary.csv"),
   "D21",
   "pcoa_d21_plot.png",
   probiotic_color = "#4169E1",

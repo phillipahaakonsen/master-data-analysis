@@ -5,10 +5,11 @@
 library(dplyr)
 
 results_dir <- getOption("project_results_dir", file.path(getwd(), "results"))
+data_dir <- getOption("project_data_dir", getwd())
 dir.create(results_dir, showWarnings = FALSE, recursive = TRUE)
 
 csv_candidates <- c(
-  "Salinity_stress_test.csv",
+  file.path(data_dir, "Salinity_stress_test.csv"),
   "~/Documents/NTNU/Masteroppgave/R_Lengde/Salinity_stress_test.csv"
 )
 

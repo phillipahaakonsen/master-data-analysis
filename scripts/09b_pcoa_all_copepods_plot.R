@@ -6,6 +6,7 @@ library(dplyr)
 library(ggplot2)
 
 results_dir <- getOption("project_results_dir", file.path(getwd(), "results"))
+data_dir <- getOption("project_data_dir", getwd())
 dir.create(results_dir, showWarnings = FALSE, recursive = TRUE)
 
 base_family <- "serif"
@@ -32,7 +33,7 @@ treatment_shapes <- c(
 )
 
 pcoa_raw <- read.csv(
-  "PCoA_AllCopepods_Scores.csv",
+  file.path(data_dir, "PCoA_AllCopepods_Scores.csv"),
   sep = ";",
   check.names = FALSE,
   stringsAsFactors = FALSE,
@@ -43,7 +44,7 @@ if (ncol(pcoa_raw) >= 1) {
 }
 
 pcoa_summary <- read.csv(
-  "PCoA_AllCopepods_summary.csv",
+  file.path(data_dir, "PCoA_AllCopepods_summary.csv"),
   sep = ";",
   check.names = FALSE,
   stringsAsFactors = FALSE,

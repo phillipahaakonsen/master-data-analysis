@@ -7,14 +7,15 @@ library(grid)
 source("scripts/08_pcoa_plot_helper.R", local = TRUE)
 
 results_dir <- getOption("project_results_dir", file.path(getwd(), "results"))
+data_dir <- getOption("project_data_dir", getwd())
 dir.create(results_dir, showWarnings = FALSE, recursive = TRUE)
 
 base_family <- "serif"
 legend_text_size <- 18
 
 p_d24 <- build_pcoa_plot(
-  "PCoA_D24_scores.csv",
-  "PCoA_D24_summary.csv",
+  file.path(data_dir, "PCoA_D24_scores.csv"),
+  file.path(data_dir, "PCoA_D24_summary.csv"),
   "D24",
   probiotic_color = "#1624F2",
   control_color = "#FF6200"

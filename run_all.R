@@ -1,7 +1,12 @@
 # Run all project analyses in order and save artifacts to results/
 
-results_dir <- file.path(getwd(), "results")
+project_root_dir <- getwd()
+preferred_data_dir <- file.path(project_root_dir, "data")
+data_dir <- if (dir.exists(preferred_data_dir)) preferred_data_dir else project_root_dir
+results_dir <- file.path(project_root_dir, "results")
 dir.create(results_dir, showWarnings = FALSE, recursive = TRUE)
+options(project_root_dir = project_root_dir)
+options(project_data_dir = data_dir)
 options(project_results_dir = results_dir)
 
 scripts_to_run <- c(
@@ -26,6 +31,8 @@ scripts_to_run <- c(
   "scripts/16_asv_cop_ctr_vs_cop_pro_scatterplots.R"
 )
 
+cat("Project root:", project_root_dir, "\n")
+cat("Data directory:", data_dir, "\n")
 cat("Results directory:", results_dir, "\n")
 
 for (script_path in scripts_to_run) {

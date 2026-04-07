@@ -35,7 +35,7 @@ detect_delimiter <- function(lines) {
   candidate_delimiters[which.max(candidate_scores)]
 }
 
-read_similarity_matrix <- function(path = "BrayCurtisSimilarities_copepods.csv") {
+read_similarity_matrix <- function(path = file.path(getOption("project_data_dir", getwd()), "BrayCurtisSimilarities_copepods.csv")) {
   raw_lines <- readr::read_lines(path, lazy = FALSE)
   delimiter <- detect_delimiter(raw_lines)
 

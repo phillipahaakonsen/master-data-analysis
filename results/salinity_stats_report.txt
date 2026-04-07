@@ -1,8 +1,8 @@
 Salinity stress analysis report
-Source file: Salinity_stress_test.csv
+Source file: /Users/phillipahaakonsen/Documents/NTNU/Masteroppgave/R/Salinity_stress_test.csv
 
 Descriptive summary:
-# A tibble: 2 × 4
+# A tibble: 2 x 4
   Treatment n_cones mean_survival sd_survival
   <chr>       <int>         <dbl>       <dbl>
 1 Control         4          45.8        8.43
@@ -19,7 +19,7 @@ Coefficients:
 (Intercept)         -0.1856     0.1333  -1.392    0.164  
 TreatmentProbiotic   0.3096     0.1721   1.799    0.072 .
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 (Dispersion parameter for binomial family taken to be 1)
 
